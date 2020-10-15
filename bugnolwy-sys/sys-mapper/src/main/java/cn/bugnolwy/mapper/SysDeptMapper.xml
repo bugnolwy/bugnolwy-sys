@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.bugnolwy.mapper.SysDeptMapper">
+
+    <select id="getSysDepts" resultType="cn.bugnolwy.model.SysDept">
+        SELECT s.id, s.name, s.note, s.parentId, s.create_time,
+        s.modified_time, d.name parentName
+        FROM sys_dept s LEFT JOIN sys_dept d
+        ON s.parentId = d.id
+        WHERE s.deleted = 0
+    </select>
+</mapper>

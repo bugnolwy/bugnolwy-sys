@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/bugnolwy-mail/bugnolwy-mail.iml" filepath="$PROJECT_DIR$/bugnolwy-mail/bugnolwy-mail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/bugnolwy-sys.iml" filepath="$PROJECT_DIR$/.idea/bugnolwy-sys.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bugnolwy-sys/bugnolwy-sys (1).iml" filepath="$PROJECT_DIR$/bugnolwy-sys/bugnolwy-sys (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/bugnolwy-sys/sys-mapper/sys-mapper.iml" filepath="$PROJECT_DIR$/bugnolwy-sys/sys-mapper/sys-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bugnolwy-sys/sys-model/sys-model.iml" filepath="$PROJECT_DIR$/bugnolwy-sys/sys-model/sys-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bugnolwy-sys/sys-service/sys-service.iml" filepath="$PROJECT_DIR$/bugnolwy-sys/sys-service/sys-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bugnolwy-sys/sys-web/sys-web.iml" filepath="$PROJECT_DIR$/bugnolwy-sys/sys-web/sys-web.iml" />
+    </modules>
+  </component>
+</project>

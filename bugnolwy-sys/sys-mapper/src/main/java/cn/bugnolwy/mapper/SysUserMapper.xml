@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.bugnolwy.mapper.SysUserMapper">
+    <resultMap id="SysUsersPage" type="cn.bugnolwy.model.vo.SysUserVo">
+        <id property="id" column="id"/>
+        <result property="username" column="username" jdbcType="VARCHAR"/>
+        <result property="email" column="email" jdbcType="VARCHAR"/>
+        <result property="phone" column="phone" jdbcType="VARCHAR"/>
+        <result property="enabled" column="enabled" jdbcType="BIT"/>
+        <result property="deptName" column="deptName" jdbcType="VARCHAR"/>
+        <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+        <result property="modifiedTime" column="modified_time" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <select id="getLoginsById" resultType="cn.bugnolwy.model.vo.LoginVo">
+        SELECT r.id,r.name
+        FROM sys_role r, sys_user_role ur
+        WHERE ur.role_id = r.id
+        AND ur.user_id = #{id}
+    </select>
+
+    <select id="getSysUsersPage" resultMap="SysUsersPage">
+        SELECT u.id, u.username, u.email, u.phone, u.enabled,
+        u.create_time, u.modified_time, d.name AS deptName
+        FROM sys_user u LEFT JOIN sys_dept d
+        ON u.dept_id = d.id
+    </select>
+
+    <select id="getObjectById" resultType="map">
+        SELECT u.id, u.username, u.email, u.phone,
+        u.dept_id, u.version, d.name AS deptName
+        FROM sys_user u LEFT Join sys_dept d
+        ON u.dept_id = d.id
+        WHERE u.id = #{id}
+    </select>
+
+</mapper>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5cbec08f-7ac1-4286-8280-e9912024c900" name="默认的" comment="">
+      <changelist_data name="BugnoLwy" email="" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="BugnoLwy" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1iutTrqLG0yrBdZznUk78a2p8Im" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="BugnoLwyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sys-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.bugnolwy.BugnoLwyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\lwy\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5cbec08f-7ac1-4286-8280-e9912024c900" name="默认的" comment="" />
+      <created>1602769315718</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602769315718</updated>
+      <workItem from="1602769319584" duration="300000" />
+      <workItem from="1602769705454" duration="3741000" />
+      <workItem from="1602773607602" duration="435000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myShow1" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="903" y="357" key="#Notifications" timestamp="1602773157704">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="903" y="357" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1602773157704" />
+    <state x="608" y="518" key="FileChooserDialogImpl" timestamp="1602773272488">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="608" y="518" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602773272488" />
+    <state x="791" y="460" key="Github.CreateGistDialog" timestamp="1602772787071">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="791" y="460" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602772787071" />
+    <state x="883" y="725" width="665" height="199" key="Github.ShareDialog" timestamp="1602774028232">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="883" y="725" width="665" height="199" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602774028232" />
+    <state x="573" y="159" key="Github.UntrackedFilesDialog" timestamp="1602774051449">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="573" y="159" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602774051449" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1602773722523">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602773722523" />
+  </component>
+</project>

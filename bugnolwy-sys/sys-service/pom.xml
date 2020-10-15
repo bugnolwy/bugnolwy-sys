@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>bugnolwy-sys</artifactId>
+        <groupId>cn.bugnolwy</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>sys-service</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>cn.bugnolwy</groupId>
+            <artifactId>sys-mapper</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <!--spring aop 切面 用于记录日志-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+
+        <!--rocket mq 消息队列 发消息给Mail 2.1.1-->
+        <!--<dependency>
+            <groupId>org.apache.rocketmq</groupId>
+            <artifactId>rocketmq-spring-boot-starter</artifactId>
+            <version>${rocketmq.version}</version>
+        </dependency>-->
+
+        <!--rocket mq client 客户端 4.7.1-->
+        <!--<dependency>
+            <groupId>org.apache.rocketmq</groupId>
+            <artifactId>rocketmq-client</artifactId>
+            <version>${rocketclient.version}</version>
+        </dependency>-->
+    </dependencies>
+
+</project>

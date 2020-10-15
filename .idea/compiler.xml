@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sys-mapper" />
+        <module name="sys-service" />
+        <module name="bugnolwy-mail" />
+        <module name="sys-web" />
+        <module name="sys-model" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bugnolwy-mail" target="1.8" />
+      <module name="bugnolwy-sys" target="1.8" />
+      <module name="bugnolwy-sys (1)" target="1.8" />
+      <module name="sys-mapper" target="1.8" />
+      <module name="sys-model" target="1.8" />
+      <module name="sys-service" target="1.8" />
+      <module name="sys-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bugnolwy-mail" options="-parameters" />
+      <module name="sys-mapper" options="-parameters" />
+      <module name="sys-model" options="-parameters" />
+      <module name="sys-service" options="-parameters" />
+      <module name="sys-web" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: bugnolwy-sys
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+      config:
+        file-extension: yaml
+  profiles:
+    active: 8083

@@ -1,0 +1,18 @@
+spring:
+    mail:
+        default-encoding: utf-8
+        host: 官方给的地址
+        port: 587
+        protocol: smtp
+        username: 你的邮箱
+        password: 官方给的授权码
+        properties:
+            mail:
+                debug: true
+                smtp:
+                    socketFactory:
+                        class: javax.net.ssl.SSLSocketFactory
+rocketmq:
+    name-server: localhost:9876
+server:
+    port: 8080

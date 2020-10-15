@@ -1,0 +1,42 @@
+spring:
+  application:
+    name: bugnolwy-mail
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/bugnolwy?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&nullCatalogMeansCurrent=true
+    username:
+    password:
+  task:
+    execution:
+      pool:
+        core-size: 20
+      thread-name-prefix: thread.bugnolwy-
+  aop:
+    proxy-target-class: false
+  redis:
+    host: 127.0.0.1
+    database: 0
+    port: 6379
+    password: 
+  session:
+    timeout: 10m
+  mvc:
+    static-path-pattern: /static/**
+  thymeleaf:
+    cache: true
+    encoding: UTF-8
+    prefix: classpath:/templates/
+    suffix: .html
+
+page:
+  config:
+    size: 15
+    
+server:
+  port: 8081
+
+# rocketmq:
+#   name-server: localhost:9876
+#   producer:
+#     group: email-order
